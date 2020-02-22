@@ -1,0 +1,36 @@
+@media only screen and (max-width: 767px) {
+
+	/*------- Vertical Tab Section Starts -------*/
+
+.bg-vertical-tab { padding: 15px; }
+.tab-heading > h1 { font-size: 2.4rem; margin-bottom: 30px; padding-bottom: 30px; }
+.tab-heading > h1:after { width: 270px; }
+.tab-listing > li { display: inline-block; margin: 0 15px 15px 0; }
+.tab-listing > li > a { font-size: 1.6rem; }
+.tab-description > p { font-size: 1.4rem; text-align: justify; }
+
+	/*------- Vertical Tab Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Vertical Tab Section Starts -------*/
+
+.bg-vertical-tab { padding: 30px 15px; }
+.tab-heading > h1 { font-size: 3rem; margin-bottom: 30px; padding-bottom: 30px; }
+
+	/*------- Vertical Tab Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	/*------- Vertical Tab Section Starts -------*/
+
+.bg-vertical-tab { padding: 30px 15px; }
+.tab-heading > h1 { font-size: 3rem; margin-bottom: 30px; padding-bottom: 30px; }
+
+	/*------- Vertical Tab Section Ends -------*/
+
+}

@@ -1,0 +1,37 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Barlow-Regular"; src: url("../fonts/Barlow-Regular.otf"); }
+@font-face { font-family: "Barlow-Medium"; src: url("../fonts/Barlow-Medium.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html,
+body { letter-spacing: 1px; }
+html { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul,
+h1,
+p { margin: 0; padding: 0; }
+li { list-style-type: none; }
+a,
+a:hover,
+a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+
+/*------- Vertical Tab Section Starts -------*/
+
+.bg-vertical-tab { padding: 50px 15px; }
+.tab-heading > h1 { color: #000; font: 3.6rem/1.42857143 "Barlow-Medium"; margin-bottom: 50px; padding-bottom: 50px; position: relative; text-align: center; }
+.tab-heading > h1:after { background-color: #000; bottom: 0; content: ""; height: 2px; left: 50%; position: absolute; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); width: 300px; }
+.tab-listing > li { display: block; margin-bottom: 15px; }
+.tab-listing > li > a { color: #000; font: 1.8rem/1.42857143 "Barlow-Medium"; }
+.tab-listing > li > a:hover,
+.tab-listing > li.active > a { color: #00a8ff; }
+.tab-content .active { display: block; }
+.tab-content .hide { display: none; }
+.tab-description > p { color: #000; font: 1.8rem/1.42857143 "Barlow-Regular"; }
+
+/*------- Vertical Tab Section Ends -------*/
